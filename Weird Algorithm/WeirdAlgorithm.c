@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 
 void generateWeirdness(int num) {
     if (num <= 0) {
