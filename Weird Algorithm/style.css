@@ -79,6 +79,7 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 0 3vw;
+  max-width: 100%;
 }
 
 .container input {
@@ -96,8 +97,13 @@ footer {
 
 span {
   font-weight: bold;
-  font: var(--h6);
-  color: var(--color2);
+  font: var(--p);
+  color: var(--color3);
   background-color: var(--escurom);
   text-align: center;
+  max-width: 100%;
+  display: inline-block;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
